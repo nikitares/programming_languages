@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<schematics>
+ <net description="GND" id="1"/>
+ <net id="2"/>
+ <net description="Vcc" id="3"/>
+ <diode net_from="1" net_to="3"
+ resistance="84.986"
+ reverse_resistance="19295131.171"
+ />
+ <diode net_from="1" net_to="2"
+ resistance="128.445"
+ reverse_resistance="19629496.476"
+ />
+ <resistor net_from="3" net_to="1"
+ resistance="1000.000"
+ />
+ <capactor net_from="3" net_to="2"
+ resistance="423074289.097"
+ />
+</schematics>
