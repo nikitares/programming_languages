@@ -1,4 +1,5 @@
 #include <vector>
+#include <limits>
 
 extern "C" {
 #include <Python.h>
@@ -7,7 +8,7 @@ extern "C" {
 #include <iostream>
 
 
-const double INF = 1000000000000;
+const double INF = std::numeric_limits<double>::infinity();
 
 // Element of the net
 struct CircuitElement {
